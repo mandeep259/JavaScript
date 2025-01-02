@@ -16,3 +16,6 @@ console.log(userEmail)
 
 console.group (userName, userLastName, userEmail, userMobileNumber, userEmail, userState, userPincode)
 console.log(userHobbies) // if valuse not assigned to its variableName, it represent datatype as undefined.
+
+// console.group ([userName, userLastName, userEmail, userMobileNumber, userEmail, userState, userPincode])
+console.table ([userName, userLastName, userEmail, userMobileNumber, userEmail, userState, userPincode])
