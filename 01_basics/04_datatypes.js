@@ -13,7 +13,7 @@ let userLoggedIn = false
 // console.log(typeof userState)
 // console.log(typeof userLoggedIn)
 /*
-Datatypes
+*****Datatypes*****
 string
 number
 bigint

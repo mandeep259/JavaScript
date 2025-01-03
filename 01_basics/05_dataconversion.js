@@ -17,10 +17,14 @@ let scoreInBoolen = Boolean(score)
 console.log(scoreInBoolen);
 console.log(typeof scoreInBoolen);
 
-let userPassword = "hitesh"
+let userPassword = "hitesh@123"
 
-// console.log(userPassword);
-// console.log(typeof userPassword);
+console.log(userPassword);
+console.log(typeof userPassword);
+
+let userPasswordInString = String(userPassword);
+console.log(typeof(userPassword));
+
 
 // ********************** operations ****************
 
@@ -30,7 +34,7 @@ let userPassword = "hitesh"
 // console.log(2**3);
 // console.log(12%9);
 
-console.log(2+2 + "js" + 33);
+console.log((2+2) + "js" + (33-3));
 console.log("36" + (2 + 2) );
 
 
