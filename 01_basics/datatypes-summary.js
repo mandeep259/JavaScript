@@ -40,6 +40,38 @@ let myFuntion = function(){
 
 console.log(typeof(myFuntion)); // it is called as funtion object
 
+/*
+Stack and Heap memory- Stack memory is used by (Primitive Datatypes) and Heap memory is used by 
+the (Non-Primitive Datatypes)
+*/
+
+let userEmail = "deep@google.com"
+userAnotherEmail = userEmail
+
+console.log(userEmail);
+console.log(userAnotherEmail);
+
+userAnotherEmail = "deep@yahoo.com" //now the emailID is changed, let see? is it changed the original value
+
+console.log(userEmail);
+console.log(userAnotherEmail);
+//for heap
+
+let userOne = {
+    state: "PB",
+    location: "Mohali"
+}  
+
+let userTwo = userOne
+
+// console.log(userOne.state);
+// console.log(userTwo.state);
+
+userTwo.state = "Bangleru"
+
+console.log(userOne.state);
+console.log(userTwo.state);
+
 
 
 
