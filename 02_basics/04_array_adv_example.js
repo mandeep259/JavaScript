@@ -7,6 +7,10 @@ console.log(arrayObject);
 console.log(typeof arrayObject);
 
 
+console.log(Array.isArray('telmune'));
+console.log(Array.from('telmune'));
+
+
 let mixedValues = (fruits.concat(number)) //concat method don't modfy the existing array but returns a new array
 console.log(mixedValues[2]);
 
