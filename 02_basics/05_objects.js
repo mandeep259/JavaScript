@@ -43,3 +43,19 @@ function greeting (){
 }
 
 greeting();
+
+
+const utkarsh = {
+    user: "sahil",
+    empcode: 2023,
+    location: "mohali",
+    qualification: ["B-Tech", "M-Tech", 10, 12]
+}
+
+console.log(utkarsh);
+
+console.log(utkarsh.qualification[2]);
+console.log(utkarsh.user);
+
+utkarsh.user = "Deep"
+console.log(utkarsh);
