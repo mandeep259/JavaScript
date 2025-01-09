@@ -31,3 +31,9 @@ console.log(Array.of(score1,score2,score3))
 
 
 
+let utkarsh = ["manish", "abhishek", {fullName: "Rahul"}]
+
+console.log(utkarsh[2].fullName);
+
+utkarsh[2].fullName = "manish"
+console.log(utkarsh[2]["fullName"]);
