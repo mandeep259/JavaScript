@@ -37,12 +37,12 @@ console.log(person);
 person.email= "makhan@yahoo.com"
 console.log(person.email);
 
-function greeting (){
-    console.log(`Welcome to learn JS, ${person.name}`);
+function greeting (username = "Mohit"){
+    console.log(`Welcome to learn JS, ${username}`);
     
 }
 
-greeting();
+console.log(greeting("Rahul"));
 
 
 const utkarsh = {
@@ -52,10 +52,10 @@ const utkarsh = {
     qualification: ["B-Tech", "M-Tech", 10, 12]
 }
 
-console.log(utkarsh);
+// console.log(utkarsh);
 
-console.log(utkarsh.qualification[2]);
-console.log(utkarsh.user);
+// console.log(utkarsh.qualification[2]);
+// console.log(utkarsh.user);
 
-utkarsh.user = "Deep"
-console.log(utkarsh);
+// utkarsh.user = "Deep"
+// console.log(utkarsh);
