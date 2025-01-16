@@ -85,13 +85,87 @@
 // console.log(addTwoNumber(5,null))
 
 
-function addTwoNumber(val1, val2) {
-    val1 = !val1 ?0 :val1
-    val2 = !val2 ?0 :val2
-    console.log(`The Sum of val1 is ${val1} and val2 is ${val2}, The Sum of both numbers are `, val1 + val2);
-}
+// function addTwoNumber(val1, val2) {
+//     val1 = !val1 ?0 :val1
+//     val2 = !val2 ?0 :val2
+//     console.log(`The Sum of val1 is ${val1} and val2 is ${val2}, The Sum of both numbers are `, val1 + val2);
+// }
 
-addTwoNumber()
-addTwoNumber(5, undefined)
-addTwoNumber(5, null)
-addTwoNumber(5, 35)
+// addTwoNumber()
+// addTwoNumber(5, undefined)
+// addTwoNumber(5, null)
+// addTwoNumber(5, 35)
+
+//object access under the function
+
+// let user = {
+//     username: "Hitesh",
+//     coursename: "JavaScript",
+//     price: 199
+// }
+
+// function handleOject(anyobject) {
+// console.log( `The username is ${anyobject.username} and the ${anyobject.coursename} lang. expert, the learning pack under price ${anyobject.price}`
+// )}
+
+// handleOject(user)
+
+// handleOject({
+//     username: "Sam",
+//     coursename: "CPP",
+//     price: 399
+// })
+
+// let myArray = [100, 200, 300, 400]
+
+// function getArray(anyArray) {
+//     return anyArray[2]
+// }
+
+// console.log(getArray(myArray))
+// console.log(getArray([500, 1000, 1500, 2000]))
+
+// function user(username) {
+//     return `${username}, welcome to the site`
+    
+// }
+// console.log(user())
+
+// function user(username = "Guest") {
+//     return `${username}, welcome to the site`
+// }
+
+// console.log(user())
+
+// function user(username) {
+//     if (username === undefined) {
+//         console.log("Please enter your name");
+//         return
+//     }
+//     return `${username}, welcome to the site`
+// }
+
+// console.log(user())
+
+// function user(username) {
+//         if (!username) {
+//             console.log("Please enter your name");
+//             return
+//         }
+//         return `${username}, welcome to the site`
+//     }
+
+//     console.log(user());
+    
+function user(username) {
+    username= !username ? "SAM" : username
+    console.log(`${username}, Just logged in`);
+}
+user("Rohit")
+user()
+
+function calculateShoppingCartValue (...num1){
+    return num1
+} 
+
+console.log(calculateShoppingCartValue(5, 100, 400, 800))
